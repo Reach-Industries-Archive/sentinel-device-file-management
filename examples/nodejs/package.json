@@ -1,0 +1,19 @@
+{
+  "name": "sentinel-device-file-management",
+  "version": "1.0.0",
+  "description": "Node.js application that polls SentinelEngine and synchronises device files.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Barney Dennis",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "dotenv-safe": "^8.2.0",
+    "md5-file": "^5.0.0"
+  }
+}
