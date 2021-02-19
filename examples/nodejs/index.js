@@ -20,7 +20,6 @@ import axios from "axios";
   const headers = {
     authorization: SENTINEL_ENGINE_DEVICE_AUTH_KEY,
     deviceid: SENTINEL_ENGINE_DEVICE_ID,
-    Host:"http-decoder.solo.sentinelengine.ai"
   };
 
   while (true) {
